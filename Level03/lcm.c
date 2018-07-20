@@ -19,9 +19,3 @@ unsigned int	lcm(unsigned int a, unsigned int b)
 {
 	return(a * b / gcd(a, b));
 }
-
-int main(void)
-{
-	lcm('9', '3');
-	return(0);
-}
