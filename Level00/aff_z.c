@@ -1,5 +1,8 @@
 #include <unistd.h>
-
+/*
+  The exam question itself is fracked to print z + \n no matter what
+  So a route for that would simply be "write(1, "z\n", 2)" without even specifying the main requiring arguments
+*/
 int		main(int argc, char *argv[])
 {
 	int i;
